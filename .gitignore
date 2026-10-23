@@ -1,0 +1,31 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de caché y bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Archivos de Streamlit y Caché
+.streamlit/
+.cache/
+
+# Carpetas de configuración de IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.useros
+*.sln.docstates
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas de salida temporal de scripts
+output/

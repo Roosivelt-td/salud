@@ -1,0 +1,13 @@
+services:
+  forecast-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: covid_salud_forecast
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
